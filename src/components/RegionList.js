@@ -9,7 +9,7 @@ const RegionList = ({ countries, regions }) => {
     });
 
     return (
-        <RegionCard
+        <RegionCard className='tc'
           key={i}
           name={region}
           countryList={countryList}
